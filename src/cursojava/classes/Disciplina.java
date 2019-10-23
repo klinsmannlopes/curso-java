@@ -29,10 +29,10 @@ public class Disciplina {
 		
 		int somaTotal = 0;
 		
-		for (int i = 0; i < nota.length; i++) {
-			somaTotal += nota[i];
+		for (int i = 0; i < this.nota.length; i++) {
+			somaTotal += this.nota[i];//nota[i];
 		}
-		return somaTotal / nota.length;
+		return somaTotal / this.nota.length;
 	}
 	
 	@Override

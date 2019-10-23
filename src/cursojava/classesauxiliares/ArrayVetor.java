@@ -12,8 +12,6 @@ public class ArrayVetor {
 	
 	public static void main(String[] args) {
 		
-		
-		
 		Aluno aluno = new Aluno();
 		Aluno aluno2 = new Aluno();
 		
